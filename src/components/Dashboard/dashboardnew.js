@@ -23,7 +23,7 @@ import productIconTwo from "../../assets/images/Achmea_logo.png";
 import productOfferIcon from "../../assets/images/productoffer.png";
 import { FormattedMessage } from "react-intl";
 import axios from "axios";
-
+import swal from "sweetalert";
 import Agentdetails from "../../data/Agentdetails.json";
 import customerdetails from "../../data/customerdetails.json";
 import stories from "../../data/stories.json";
@@ -42,31 +42,30 @@ const DashboardNew = () => {
 
   const [userArrystate, setuserArrystate] = useState([]);
   const [aiArraystate, setaiArraystate] = useState([]);
+
+  const [count, setCount] = useState(0);
   const scrollRef = useRef(null);
 
   useEffect(() => {
     // Scroll to the bottom when the component mounts or updates
     scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
-  }, [LiveTranscriptionorderID]);
+  }, [count, LiveTranscriptionorderID]);
 
-  // console.log("LiveTranscriptionorderID", LiveTranscriptionorderID);
-  // useEffect(()=>{
-  //     if(ishowConversation){
-  //         //DeleteAllLiveTranscription();
-  //          postLiveTranscription();
-  //         setTimeout(()=>{
-  //             getLiveTranscription();
-  //         },[5000])
-  //             setTimeout(()=>{
-  //                 getAISuggestion();
-  //             },[12000])
+  if (count > 6) {
+    swal({
+      title: "Convertation Ended",
+      text: "Thank you for the convertation",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    }).then((willDelete) => {
+      if (willDelete) {
+        window.location.reload();
+      }
+    });
+  }
+  console.log("count", count);
 
-  //     }
-
-  // },[ishowConversation])
-  // useEffect(()=>{
-
-  // },[])
   useEffect(() => {
     customerDetails();
     AgentDetails();
@@ -105,10 +104,16 @@ const DashboardNew = () => {
       const res = stories;
 
       setLiveTranscriptionData(res?.data[0].transcription);
-      setTimeout(() => setuserArrystate([res?.data[0].transcription[0]]), 3000);
+      setTimeout(() => {
+        setuserArrystate([res?.data[0].transcription[0]]);
+        setCount(count + 1);
+      }, 3000);
 
       setaiSuggestedData(res?.data[0].aiSuggestions);
-      setTimeout(() => setaiArraystate([res?.data[0].aiSuggestions[0]]), 5000);
+      setTimeout(() => {
+        setaiArraystate([res?.data[0].aiSuggestions[0]]);
+        setCount(count + 1);
+      }, 5000);
     } catch (error) {
       console.log(error);
     }
@@ -142,8 +147,9 @@ const DashboardNew = () => {
         ...temp,
         liveTranscriptionData[LiveTranscriptionorderID],
       ]);
+      console.log("secLiveTranscriptionorderIDond", LiveTranscriptionorderID);
+      setCount(count + 1);
     }, 3000);
-    console.log("second", userArrystate);
   }
   function aidelay() {
     setTimeout(() => {

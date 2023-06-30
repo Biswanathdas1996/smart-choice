@@ -727,7 +727,7 @@ h2.title1 {
   }
 
   .respo-hldr {
-    height: calc(100vh - 30rem) !important;
+    height: calc(100vh - 37rem) !important;
   }
 }
 
@@ -826,3 +826,9 @@ h2.title1 {
   }
 }
 
+/* @media all and (min-width: 2559.5px) {
+  html {
+    font-size: 16px;
+
+  }
+} */
