@@ -164,7 +164,7 @@ strong {
 
 .mid-hldr>div {
   display: inline-table;
-  height: 75rem;
+  /* height: 75rem; */
 }
 
 /* right panel */
@@ -447,19 +447,20 @@ h2.title1 {
 }
 
 .chat-end-btn {
-  width: 112px;
-  height: 47px;
-  background-color: var(--red-color);
-  color: #fff;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 0 auto 20px;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0px 0px 4px #00000052;
-  font-size: 1.375rem;
-  font-weight: 700;
+  width: 30%;
+    height: 47px;
+    background-color: var(--red-color);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 40px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #00000052;
+    font-size: 1.375rem;
+    font-weight: 700;
+    gap: 10px;
 }
 
 .chat-input-hldr {
@@ -528,7 +529,7 @@ h2.title1 {
 
 .respo-hldr {
   margin-bottom: 30px;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 37rem);
 }
 
 .respo-hldr .respo-chat {
@@ -555,7 +556,7 @@ h2.title1 {
 
 .repo-chat-icon {
   float: right;
-  margin-top: -19px;
+  margin-top: 0px;
 }
 
 .respo-hldr .respo-chat p {
@@ -640,7 +641,7 @@ h2.title1 {
 .tckes-hldr .box-hldr {
   border: 1px solid #707070;
   border-radius: 3px;
-  height: 150px;
+  /* height: 150px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -705,7 +706,7 @@ h2.title1 {
 
 @media all and (min-width: 1366.5px) {
   html {
-    font-size: 16px;
+    font-size: 10px;
     /* background-color: yellow; */
   }
 
@@ -714,19 +715,19 @@ h2.title1 {
   }
 
   .mid-hldr {
-    height: calc(100% - 7.625rem);
+    /* height: calc(100% - 7.625rem); */
   }
 
   .mid-hldr>div {
-    height: 49.5rem;
+    /* height: 49.5rem; */
   }
 
   .chat-hldr {
-    height: calc(100vh - 508px);
+    height: calc(100vh - 30rem) !important;
   }
 
   .respo-hldr {
-    height: calc(100vh - 643px);
+    height: calc(100vh - 30rem) !important;
   }
 }
 
@@ -737,11 +738,11 @@ h2.title1 {
   }
 
   .chat-hldr {
-    height: 500px;
+    /* height: 500px; */
   }
 
   .respo-hldr {
-    height: 400px;
+    /* height: 400px; */
   }
 
   .chat-img p {
@@ -817,3 +818,11 @@ h2.title1 {
   color: #FFFFFF;
   opacity: 1;
 }
+
+@media all and (min-width: 1919.5px) {
+  html {
+    font-size: 16px;
+    /* background-color: yellow; */
+  }
+}
+

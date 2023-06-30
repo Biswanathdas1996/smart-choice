@@ -1,0 +1,374 @@
+{
+    "data": [
+        {
+            "name": "Loan",
+            "transcription": [
+                {
+                    "userName": "Lisa smith",
+                    "text": " Hi! I am Lisa. I've been considering purchasing a home here in Amsterdam, and I'm in need of a home loan. I have some questions and would like to explore my options.",
+                    "role": "customer",
+                    "orderId": "0"
+                },
+                {
+                    "userName": "Lisa Smith",
+                    "text": "Certainly. I'm searching for a two-bedroom apartment within the city center or nearby neighborhoods. My budget is around €400,000. I'm looking for a loan that offers flexibility in terms of repayment and a competitive interest rate.",
+                    "role": "customer",
+                    "orderId": "1"
+                },
+                {
+                    "userName": "Lisa Smith",
+                    "text": "I believe I would prefer a fixed-rate mortgage. Stability and predictability in my monthly payments are important to me. Could you provide me with more information about the interest rates and loan terms available for a fixed-rate mortgage?",
+                    "role": "customer",
+                    "orderId": "2"
+                },
+                {
+                    "userName": "Lisa Smith",
+                    "text": "Yes, that would be helpful. If we consider a 20-year term, could you provide me with an approximate monthly repayment amount?",
+                    "role": "customer",
+                    "orderId": "3"
+                },
+                {
+                    "userName": "Lisa Smith",
+                    "text": "Thank you for providing me with the estimate. It helps me gauge the affordability. Can you also inform me about any associated fees or additional costs that I should be aware of when obtaining a home loan from your bank?",
+                    "role": "customer",
+                    "orderId": "4"
+                },
+                {
+                    "userName": "Lisa Smith",
+                    "text": "Transparency is greatly appreciated. I understand that each application is unique, but could you please outline the general eligibility criteria and documentation required to apply for a home loan?",
+                    "role": "customer",
+                    "orderId": "5"
+                },
+                {
+                    "userName": "Lisa Smith",
+                    "text": "I appreciate your help and guidance. I will gather the required documents and begin the loan application process with your bank. Thank you for your time and assistance.",
+                    "role": "customer",
+                    "orderId": "6"
+                }
+            ],
+            "aiSuggestions": [
+                {
+                    "suggestionIndex": "0",
+                    "role": "AI",
+                    "suggestion1": {
+                        "text": " Hello, madam. Absolutely, I'm here to help you. Could you please provide some basic information about the type of property you're looking to purchase and your budget?",
+                        "keywords": "",
+                        "type": "neutral"
+                    },
+                    "suggestion2": {
+                        "text": " I'm glad to hear that you're considering a home purchase. Amsterdam is a fantastic city to live in. I'll be happy to help answer your questions and guide you through the loan process. Firstly, could you share some details about the type of home you're looking for and your budget?",
+                        "keywords": "",
+                        "type": "positive"
+                    }
+                },
+                {
+                    "suggestionIndex": "1",
+                    "role": "AI",
+                    "suggestion1": {
+                        "text": "Great! A two-bedroom apartment in the city center sounds like a wonderful choice. Our bank offers a range of home loan options to suit different needs. Regarding flexibility, we have adjustable-rate mortgages and fixed-rate mortgages. Adjustable-rate mortgages allow for rate adjustments based on market conditions, while fixed-rate mortgages provide a stable interest rate throughout the loan term. Do you have a preference between the two?",
+                        "keywords": "",
+                        "type": "positive"
+                    },
+                    "suggestion2": {
+                        "text": " I completely understand your preferences. Our bank offers a range of home loan options that may suit your needs. One option to consider is a fixed-rate mortgage, where the interest rate remains constant throughout the loan term, providing you with predictability and stability. Would you like more information about this option?",
+                        "keywords": "",
+                        "type": "neutral"
+                    }
+                },
+                {
+                    "suggestionIndex": "2",
+                    "role": "AI",
+                    "suggestion1": {
+                        "text": "Absolutely. With a fixed-rate mortgage, you can expect a consistent interest rate throughout the loan term, typically ranging from 10 to 30 years. The specific interest rates can vary based on prevailing market rates and your creditworthiness. Currently, our rates start at 2.5% for qualified borrowers. Would you like an estimate of the monthly repayments based on a loan amount of €400,000 and a specific term?",
+                        "keywords": "",
+                        "type": "positive"
+                    },
+                    "suggestion2": {
+                        "text": " Certainly. Our fixed-rate mortgages typically have terms ranging from 10 to 30 years, depending on your preferences and financial situation. Regarding interest rates, they are influenced by various factors, including prevailing market rates and your creditworthiness. Currently, our rates start at 2.5% for qualified borrowers. However, it's important to note that specific rates and terms can be discussed in more detail during the loan application process.",
+                        "keywords": "",
+                        "type": "positive"
+                    }
+                },
+                {
+                    "suggestionIndex": "3",
+                    "role": "AI",
+                    "suggestion1": {
+                        "text": "Sure! Based on an estimated interest rate of 3.0% for a 20-year fixed-rate mortgage, your estimated monthly repayment would be approximately €2,211. Please note that this is an estimate, and the actual terms and rates will be determined during the application process.",
+                        "keywords": "",
+                        "type": "positive"
+                    },
+                    "suggestion2": {
+                        "text": "Certainly! Let me quickly calculate that for you. Based on an approximate interest rate of 3.0% for a 20-year fixed-rate mortgage, your estimated monthly repayment would be around €2,211. However, please keep in mind that this is an estimate, and the actual terms and rates may vary based on your individual circumstances.",
+                        "keywords": "",
+                        "type": "neutral"
+                    }
+                },
+                {
+                    "suggestionIndex": "4",
+                    "role": "AI",
+                    "suggestion1": {
+                        "text": "Of course. When applying for a home loan, there are some common fees to consider, such as application fees, appraisal fees, and legal fees. However, our bank aims to provide transparency, and we will provide a comprehensive breakdown of all associated costs during the loan application process. This ensures that you have a clear understanding of the expenses involved.",
+                        "keywords": "",
+                        "type": "positive"
+                    },
+                    "suggestion2": {
+                        "text": "Of course. There are some common fees associated with home loans, such as application fees, appraisal fees, and legal fees. These fees can vary, and we will provide you with a comprehensive breakdown during the loan application process. It's important to us that you have a clear understanding of the costs involved, and we strive to be transparent in our communication.",
+                        "keywords": "",
+                        "type": "positive"
+                    }
+                },
+                {
+                    "suggestionIndex": "5",
+                    "role": "AI",
+                    "suggestion1": {
+                        "text": "Certainly. To apply for a home loan, we typically require proof of income, employment details, identification documents, and information about the property you intend to purchase. We will also evaluate your creditworthiness and assess your ability to repay the loan. Our loan officers can guide you through the application process and provide you with a comprehensive list of required documentation specific to your situation.",
+                        "keywords": "",
+                        "type": "positive"
+                    },
+                    "suggestion2": {
+                        "text": " Absolutely. To apply for a home loan, you would typically need to provide proof of income, employment details, identification documents, and information about the property you intend to purchase. Our loan officers will guide you through the application process and provide a checklist of required documentation. Rest assured, we strive to make the process as smooth and straightforward as possible.",
+                        "keywords": "",
+                        "type": "positive"
+                    }
+                },
+                {
+                    "suggestionIndex": "6",
+                    "role": "AI",
+                    "suggestion1": {
+                        "text": "You're most welcome! I'm here to assist you every step of the way. If you have any further questions or need any additional information, please don't hesitate to reach out. Good luck with your loan application, and I look forward to working with you!",
+                        "keywords": "",
+                        "type": "positive"
+                    },
+                    "suggestion2": {
+                        "text": "You're welcome, and I'm glad I could assist you. Please take your time to evaluate your options, and feel free to reach out if you have any additional queries or need further guidance. We're here to help you throughout the process. Thank you and I wish you the best of luck in finding your dream home!",
+                        "keywords": "",
+                        "type": "positive"
+                    }
+                }
+            ],
+            "genderIdentity": "She/Her",
+            "productOffers": [
+                {
+                    "icon": "",
+                    "name": "",
+                    "feature": "",
+                    "rate": ""
+                },
+                {
+                    "icon": "",
+                    "name": "",
+                    "feature": "",
+                    "rate": ""
+                }
+            ],
+            "customerIntent": "purchase",
+            "customerDelight": "positive",
+            "customerdetails": [
+                {
+                    "id": "1",
+                    "customerName": "Lisa smith",
+                    "age": "27",
+                    "occupation": "HR",
+                    "companyName": "",
+                    "currentPolicy": "2"
+                }
+            ],
+            "knowledgeBase": {
+                "keywords": "",
+                "response": [
+                    {
+                        "type": "Internal",
+                        "logo": "",
+                        "title": "FAQ",
+                        "subtitle": "loremn"
+                    },
+                    {
+                        "type": "Internal",
+                        "logo": "",
+                        "title": "Investment Manual",
+                        "subtitle": "loremn"
+                    },
+                    {
+                        "type": "Web",
+                        "logo": "",
+                        "title": "Investopedia",
+                        "subtitle": "loremn"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Insurance",
+            "transcription": [
+                {
+                    "customer": "Hi! I am interested in applying for a home loan. Can you assist me?",
+                    "orderId": "1"
+                },
+                {
+                    "agent": "Good morning, madam. Absolutely, I'm here to help you. Could you please provide some basic information about the type of property you're looking to purchase and your budget?",
+                    "orderId": "2",
+                    "suggestionIndex": "1"
+                },
+                {
+                    "customer": "Thank you for your assistance. I'm looking to buy an apartment in a central location in Amsterdam. My budget is around €500,000.",
+                    "orderId": "3"
+                },
+                {
+                    "agent": "",
+                    "orderId": "2",
+                    "suggestionIndex": "2"
+                }
+            ],
+            "aiSuggestions": [
+                {
+                    "suggestionIndex": "1",
+                    "suggestion1": "",
+                    "suggestion2": ""
+                },
+                {
+                    "suggestionIndex": "2",
+                    "suggestion1": {
+                        "text": "",
+                        "keywords": ""
+                    },
+                    "suggestion2": {
+                        "text": "",
+                        "keywords": ""
+                    }
+                }
+            ],
+            "genderIdentity": "She/Her",
+            "productOffers": [
+                {
+                    "icon": "",
+                    "name": "",
+                    "feature": "",
+                    "rate": ""
+                },
+                {
+                    "icon": "",
+                    "name": "",
+                    "feature": "",
+                    "rate": ""
+                }
+            ],
+            "customerIntent": "purchase",
+            "customerDelight": "positive",
+            "customerdetails": [
+                {
+                    "id": "1",
+                    "customerName": "Lisa smith",
+                    "age": "27",
+                    "occupation": "HR",
+                    "companyName": "",
+                    "currentPolicy": "2"
+                }
+            ]
+        },
+        {
+            "name": "General",
+            "transcription": [
+                {
+                    "customer": "Hi! I am interested in applying for a home loan. Can you assist me?",
+                    "orderId": "1"
+                },
+                {
+                    "agent": "Good morning, madam. Absolutely, I'm here to help you. Could you please provide some basic information about the type of property you're looking to purchase and your budget?",
+                    "orderId": "2",
+                    "suggestionIndex": "1"
+                },
+                {
+                    "customer": "Thank you for your assistance. I'm looking to buy an apartment in a central location in Amsterdam. My budget is around €500,000.",
+                    "orderId": "3"
+                },
+                {
+                    "agent": "",
+                    "orderId": "2",
+                    "suggestionIndex": "2"
+                }
+            ],
+            "aiSuggestions": [
+                {
+                    "suggestionIndex": "1",
+                    "suggestion1": "",
+                    "suggestion2": ""
+                },
+                {
+                    "suggestionIndex": "2",
+                    "suggestion1": {
+                        "text": "",
+                        "keywords": ""
+                    },
+                    "suggestion2": {
+                        "text": "",
+                        "keywords": ""
+                    }
+                }
+            ],
+            "genderIdentity": "She/Her",
+            "productOffers": [
+                {
+                    "icon": "",
+                    "name": "",
+                    "feature": "",
+                    "rate": ""
+                },
+                {
+                    "icon": "",
+                    "name": "",
+                    "feature": "",
+                    "rate": ""
+                }
+            ],
+            "customerIntent": "purchase",
+            "customerDelight": "positive",
+            "customerdetails": [
+                {
+                    "id": "1",
+                    "customerName": "Lisa smith",
+                    "age": "27",
+                    "occupation": "HR",
+                    "companyName": "",
+                    "currentPolicy": "2"
+                }
+            ]
+        }
+    ],
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "cache-control": "no-cache",
+        "content-type": "application/json; charset=utf-8",
+        "expires": "-1",
+        "pragma": "no-cache"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "http://localhost:3500/stories"
+    },
+    "request": {}
+}

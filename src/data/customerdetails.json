@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "userName": "Lisa Smith",
+            "userPhoto": "/src/assets/images/agentimage.png"
+        }
+    ],
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "cache-control": "no-cache",
+        "content-length": "94",
+        "content-type": "application/json; charset=utf-8",
+        "expires": "-1",
+        "pragma": "no-cache"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "http://localhost:3500/customerdetails"
+    },
+    "request": {}
+}
