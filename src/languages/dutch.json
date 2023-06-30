@@ -1,0 +1,11 @@
+{
+    "app.header":"slim voorstellen",
+    "app.header.two":"Welkom terug",
+    "app.label.transcription":"Live-transcriptie",
+    "app.label.summary":"Samenvatting",
+    "app.label.AISuggested":"AI voorgestelde reacties",
+    "app.label.products":"Producten en Aanbiedingen",
+    "app.label.customerIntent":"Intentie van de klant",
+    "app.label.customerDelight":"Tevredenheid van een klant"
+
+}

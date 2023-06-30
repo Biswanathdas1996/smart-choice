@@ -1,0 +1,82 @@
+/* body {
+  margin: 0;
+  font-family: "Helvetica Neue LT Pro !important";
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Helvetica Neue LT Pro !important"
+} */
+
+@font-face {
+  font-family: HelveticaNeueLTPro-Bd;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-Bd.ttf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTPro-BdIt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-BdIt.ttf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTPro-BdOu;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-BdOu.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-Blk;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-Blk.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-BlkIt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-BlkIt.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-Hv;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-Hv.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-HvIt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-HvIt.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-It;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-It.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-Lt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-Lt.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-LtIt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-LtIt.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-Md;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-Md.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-MdIt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-MdIt.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-Roman;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-Roman.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-Th;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-Th.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-ThIt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-ThIt.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-UltLt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-UltLt.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLTPro-UltLtIt;
+  src: url("./assets/fonts/Helvetica/HelveticaNeueLTPro-UltLtIt.ttf");
+}

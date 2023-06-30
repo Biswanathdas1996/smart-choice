@@ -1,0 +1,10 @@
+{
+    "app.header":"kluger Vorschlag",
+    "app.header.two":"Willkommen zurück",
+    "app.label.transcription":"Live-Transkription",
+    "app.label.summary":"Zusammenfassung",
+    "app.label.AISuggested":"Von der KI vorgeschlagene Antworten",
+    "app.label.products":"Produkte und Angebote",
+    "app.label.customerIntent":"Kundenabsicht",
+    "app.label.customerDelight":"Kundenzufriedenheit"
+}

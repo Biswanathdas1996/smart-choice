@@ -1,0 +1,88 @@
+{
+    "dashboardDetails":{
+        "customerdetails": [{
+            "id":"1",
+            "customerName":"Lisa smith",
+            "customerIntent":"purchase",
+            "customerDelight":"positive",
+            "callDuration":"43 secs",
+            "email":"lisasmitha@mail.com",
+            "mobileNumber":"(333)-333333",
+            "customerSince":"3"
+        }],
+        "Agentdetails":[{
+            "id":"1",
+            "AgentName":"James Lobo"
+        }],
+        "live Transcription":[{
+            "customer":[{
+                "customerId":"1",
+                "customerName":"Lisa smith",
+                "chatDetails":[{
+                    "date":"23/06/2023",
+                    "chat":"ya i want to know the best insurance policy for my son,i'm looking for a tenure of 5 years"
+                },{
+                    "date":"24/06/2023",
+                    "chat":"ya sure"
+                }]
+            }],
+            "Agent":[{
+                "AgentId":"4",
+                "AgentName":"James Lobo",
+                "chatDetails":[{
+                    "date":"23/06/2023",
+                    "chat":"ya sure give me a moment while i look for a policy which suits your requiremnet"
+                }
+            ]
+            }]
+        }],
+        "Agent AI suggested reponses":[{
+            "AIsuggestion":[
+              {
+              "suggestion":"Ya sure, Please give me a moment while I look for a policy which suits your requirement..",
+              "suggestionId":"1"
+            },{
+              "suggestion":"Can you please help me to know more details about the requirements..",
+              "suggestionId":"2"
+            },
+          {
+              "suggestion":"I'm so sorry but currently we don't have any policy which suits your requirements..",
+              "suggestionId":"3"
+          }],
+          "AI suggested policy":[
+            {
+            "policyName":"Agis",
+            "policyId":"1",
+            "percentage":"36%",
+            "amount":"234"
+          },{
+            "policyName":"Achmea",
+            "policyId":"2",
+            "percentage":"31.4%",
+            "amount":"234"
+          },
+          {
+            "policyName":"De Friesland",
+            "policyId":"3",
+            "percentage":"31.2%",
+            "amount":"234"
+          }
+        ]
+          }],
+          "customer history":[{
+             "insurer":"achmea",
+             "amount":"289",
+             "PolicyId":2
+          },{
+            "insurer":"Agis",
+             "amount":"157",
+             "PolicyId":1
+          }
+        ],
+        "paymentInfo":[{
+            "paymentMode":"credtcard",
+            "expiryDate":"27/03"
+        }]   
+
+}
+}

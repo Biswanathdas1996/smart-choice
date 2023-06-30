@@ -1,0 +1,11 @@
+{
+    "app.header":"Smart Suggest",
+    "app.header.two":"Welcome Back",
+    "app.label.transcription":"Live Transcription",
+    "app.label.summary":"Summary",
+    "app.label.AISuggested":"AI Suggested Reponses",
+    "app.label.products":"Products and Offers",
+    "app.label.customerIntent":"Customer Intent",
+    "app.label.customerDelight":"Customer Delight"
+
+}
