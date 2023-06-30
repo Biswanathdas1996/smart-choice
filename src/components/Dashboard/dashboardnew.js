@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import mail from "../../assets/images/mail.svg";
 import phone from "../../assets/images/phone.svg";
 import profileImage from "../../assets/images/profile-img1.jpg";
@@ -42,6 +42,12 @@ const DashboardNew = () => {
 
   const [userArrystate, setuserArrystate] = useState([]);
   const [aiArraystate, setaiArraystate] = useState([]);
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    // Scroll to the bottom when the component mounts or updates
+    scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
+  }, [LiveTranscriptionorderID]);
 
   // console.log("LiveTranscriptionorderID", LiveTranscriptionorderID);
   // useEffect(()=>{
@@ -345,6 +351,7 @@ const DashboardNew = () => {
               className="tab-content"
               id="myTabContent"
               style={{ overflowY: "auto" }}
+              ref={scrollRef}
             >
               <div
                 className="tab-pane fade show active"
